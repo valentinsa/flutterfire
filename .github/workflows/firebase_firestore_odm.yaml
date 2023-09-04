@@ -1,5 +1,5 @@
 name: firebase_firestore_odm
-
+global.json
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
   cancel-in-progress: true
